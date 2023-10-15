@@ -35,7 +35,7 @@ login.addEventListener("click",(e)=>{
         setTimeout(()=>{
             msg.classList.remove("errorSuccess"); 
         },1000);
-        window.location.href="../Search-table/index.html";
+        window.location.href="../search-table/index.html";
 
 
     }
