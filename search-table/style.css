@@ -1,0 +1,86 @@
+*{
+    margin:0;
+     padding:0;
+     box-sizing: border-box;
+     /* text-align: center; */
+}
+
+table{
+    padding:10px;
+    background-color: rgb(245, 244, 241);
+    border-collapse: collapse;
+    width: 80%;
+    /* margin:30px 20px; */
+     
+
+}
+
+/* tr:nth-child(){
+  background-color: rgb(100, 135, 232);
+  color: white;
+ 
+} */
+
+tr{
+    padding: 10px;
+    border: 2px solid rgb(207, 115, 170);
+    text-transform: capitalize;
+    font-size: 20px;
+    color:rgb(43, 42, 42);
+}
+ td{
+    padding:20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+ }
+  th{
+    padding:20px;
+    font-size: 26px;
+    text-transform: capitalize;
+  }
+  button{
+    padding:10px 35px;
+    background-color: rgb(248, 101, 197);
+    border:2px solid rgb(248, 101, 199);
+    color:white;
+    cursor: pointer;
+  }
+  button:hover{
+    color:rgb(106, 129, 247);
+    background: transparent;
+    border:1px solid rgb(4, 5, 23);
+  }
+  select{
+    padding: 10px;
+  }
+  input{
+    padding:10px;
+    border-radius: 20px;
+    width: 60%;
+    min-width:300px;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background:url("https://as2.ftcdn.net/v2/jpg/02/18/53/07/1000_F_218530762_YiocIhX7RaA0LFg2j62Sa9E7k7Km2QBR.jpg"); */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl1QvYTVxy_P7uHqm25dTBrN4AJZB44-XdEA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  div{
+    /* margin:20px; */
+  }
+  .head{
+    background-color:rgb(207, 115, 170);
+    margin-top: 30px;
+    border-color: pink;
+  }
+  .header{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
